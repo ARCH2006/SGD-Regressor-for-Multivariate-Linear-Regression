@@ -13,7 +13,7 @@ To write a program to predict the price of the house and number of occupants in 
 2. Scale both X (features) and Y (targets) using StandardScaler.
 3. Use SGDRegressor wrapped in MultiOutputRegressor to train on the scaled training data.
 4. Predict on test data, inverse transform the results, and calculate the mean squared error.
-
+```
 ## Program:
 ```
 /*
@@ -60,7 +60,12 @@ print("\npredictions:\n",y_pred[:5])
 ```
 
 ## Output:
-![multivariate linear regression model for predicting the price of the house and number of occupants in the house](sam.png)
+```
+![Screenshot 2024-09-09 111853](https://github.com/user-attachments/assets/e2abb099-f635-4f1c-b941-e8af4612c690)
+
+![image](https://github.com/user-attachments/assets/da5b9234-3a2f-45b4-a4eb-c761170948ee)
+
+
 
 
 ## Result:
